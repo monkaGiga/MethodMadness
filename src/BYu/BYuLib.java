@@ -36,6 +36,10 @@ public class BYuLib
             asf = base + asf;
         }
     }
+    //i will add one every loop it will print out the int asf
+    // which is also added to the base every loop until is less
+    // than or equal to the range, the range is how many times the
+    // loop will run
     public static void  fooBarBaz(int num1)
     {
         for(int i = 1; i <= num1; i++)
@@ -56,6 +60,10 @@ public class BYuLib
             System.out.println(String.valueOf(i));
         }
     }
+    //i will add 1 every loop, it will keep happening each loop
+    //until i is less than or equal to num1, if the remainder of
+    //num one divided by 3 is 0 the number will be replaced with foo
+    //multiples of 5 are bar and multiples of 3 and 5 are baz
 
 
 

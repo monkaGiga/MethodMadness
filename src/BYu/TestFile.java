@@ -9,8 +9,8 @@ public class TestFile {
     {
         println("heck");
         println(cutOut("catatonic cat", "cat"));
-        println(sumUpTo(12));
-        multiplicationTable(4,11);
+        println(sumUpTo(2));
+        multiplicationTable(5,3);
         fooBarBaz(9);
     }
 }
